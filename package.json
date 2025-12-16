@@ -1,0 +1,18 @@
+{
+  "name": "specvital-github",
+  "version": "0.0.0",
+  "description": "specvital github central repository",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KubrickCode/specvital-github.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "husky": "9.1.7",
+    "lint-staged": "16.2.7",
+    "prettier": "3.6.2"
+  }
+}
