@@ -48,9 +48,16 @@ XX-brief-decision-title.md
 
 ## ADR 목록
 
-| #   | 제목            | 영역 | 날짜 |
-| --- | --------------- | ---- | ---- |
-| -   | (아직 ADR 없음) | -    | -    |
+| #   | 제목                                                              | 영역           | 날짜       |
+| --- | ----------------------------------------------------------------- | -------------- | ---------- |
+| 01  | [정적 분석 기반 즉시 분석](./01-static-analysis-approach.md)      | Cross-cutting  | 2024-12-17 |
+| 02  | [경쟁 차별화 전략](./02-competitive-differentiation.md)           | Cross-cutting  | 2024-12-17 |
+| 03  | [파서 라이브러리 분리](./03-parser-library-separation.md)         | Parser         | 2024-12-17 |
+| 04  | [API와 Worker 서비스 분리](./04-api-worker-service-separation.md) | Architecture   | 2024-12-17 |
+| 05  | [큐 기반 비동기 처리](./05-queue-based-async-processing.md)       | Architecture   | 2024-12-17 |
+| 06  | [Polyrepo 리포지토리 전략](./06-repository-strategy.md)           | Architecture   | 2024-12-17 |
+| 07  | [PaaS 우선 인프라 전략](./07-paas-first-infrastructure.md)        | Infrastructure | 2024-12-17 |
+| 08  | [공유 인프라 전략](./08-shared-infrastructure.md)                 | Infrastructure | 2024-12-17 |
 
 ## 프로세스
 

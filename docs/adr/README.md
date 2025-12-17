@@ -48,9 +48,16 @@ XX-brief-decision-title.md
 
 ## ADR Index
 
-| #   | Title         | Area | Date |
-| --- | ------------- | ---- | ---- |
-| -   | (No ADRs yet) | -    | -    |
+| #   | Title                                                                       | Area           | Date       |
+| --- | --------------------------------------------------------------------------- | -------------- | ---------- |
+| 01  | [Static Analysis-Based Instant Analysis](./01-static-analysis-approach.md)  | Cross-cutting  | 2024-12-17 |
+| 02  | [Competitive Differentiation Strategy](./02-competitive-differentiation.md) | Cross-cutting  | 2024-12-17 |
+| 03  | [Parser Library Separation](./03-parser-library-separation.md)              | Parser         | 2024-12-17 |
+| 04  | [API and Worker Service Separation](./04-api-worker-service-separation.md)  | Architecture   | 2024-12-17 |
+| 05  | [Queue-Based Asynchronous Processing](./05-queue-based-async-processing.md) | Architecture   | 2024-12-17 |
+| 06  | [Polyrepo Repository Strategy](./06-repository-strategy.md)                 | Architecture   | 2024-12-17 |
+| 07  | [PaaS-First Infrastructure Strategy](./07-paas-first-infrastructure.md)     | Infrastructure | 2024-12-17 |
+| 08  | [Shared Infrastructure Strategy](./08-shared-infrastructure.md)             | Infrastructure | 2024-12-17 |
 
 ## Process
 
