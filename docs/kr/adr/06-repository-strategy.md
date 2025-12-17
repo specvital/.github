@@ -1,6 +1,6 @@
 # ADR-06: Polyrepo 리포지토리 전략
 
-> [English Version](../../docs/adr/06-repository-strategy.md)
+> [English Version](../../adr/06-repository-strategy.md)
 
 | 날짜       | 작성자       | 대상 리포 |
 | ---------- | ------------ | --------- |

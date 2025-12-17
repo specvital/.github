@@ -1,6 +1,6 @@
 # Collector Service
 
-> 🇰🇷 [한국어 버전](../../docs.kr/prd/04-collector-service.md)
+> 🇰🇷 [한국어 버전](../kr/prd/04-collector-service.md)
 
 > Background analysis worker
 

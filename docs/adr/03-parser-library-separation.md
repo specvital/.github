@@ -1,6 +1,6 @@
 # ADR-03: Parser Engine as Independent Library
 
-> 🇰🇷 [한국어 버전](../../docs.kr/adr/03-parser-library-separation.md)
+> 🇰🇷 [한국어 버전](../kr/adr/03-parser-library-separation.md)
 
 | Date       | Author       | Repos |
 | ---------- | ------------ | ----- |

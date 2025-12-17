@@ -1,6 +1,6 @@
 # ADR-05: 큐 기반 비동기 처리
 
-> 🇺🇸 [English Version](../../docs/adr/05-queue-based-async-processing.md)
+> 🇺🇸 [English Version](../../adr/05-queue-based-async-processing.md)
 
 | 날짜       | 작성자       | 리포지토리     |
 | ---------- | ------------ | -------------- |

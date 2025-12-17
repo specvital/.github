@@ -1,6 +1,6 @@
 # Web Platform
 
-> 🇰🇷 [한국어 버전](../../docs.kr/prd/03-web-platform.md)
+> 🇰🇷 [한국어 버전](../kr/prd/03-web-platform.md)
 
 > Web dashboard and REST API
 

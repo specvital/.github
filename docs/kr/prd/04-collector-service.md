@@ -1,6 +1,6 @@
 # Collector Service
 
-> 🇺🇸 [English Version](../../docs/prd/04-collector-service.md)
+> 🇺🇸 [English Version](../../prd/04-collector-service.md)
 
 > 백그라운드 분석 워커
 

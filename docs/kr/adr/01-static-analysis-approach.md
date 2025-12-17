@@ -1,6 +1,6 @@
 # ADR-01: 정적 분석 기반 즉시 분석
 
-> 🇺🇸 [English Version](../../docs/adr/01-static-analysis-approach.md)
+> 🇺🇸 [English Version](../../adr/01-static-analysis-approach.md)
 
 | 날짜       | 작성자       | 영향 리포지토리 |
 | ---------- | ------------ | --------------- |

@@ -1,6 +1,6 @@
 # Specvital Product Overview
 
-> 🇰🇷 [한국어 버전](../../docs.kr/prd/00-overview.md)
+> 🇰🇷 [한국어 버전](../kr/prd/00-overview.md)
 
 > Automated test inventory generation platform based on source code static analysis
 

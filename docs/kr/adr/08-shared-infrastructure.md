@@ -1,6 +1,6 @@
 # ADR-08: 공유 인프라 전략
 
-> [English Version](../../docs/adr/08-shared-infrastructure.md)
+> [English Version](../../adr/08-shared-infrastructure.md)
 
 | 날짜       | 작성자       | 영향 리포지토리 |
 | ---------- | ------------ | --------------- |

@@ -1,6 +1,6 @@
 # 기술 스택
 
-> 🇺🇸 [English Version](../../docs/prd/06-tech-stack.md)
+> 🇺🇸 [English Version](../../prd/06-tech-stack.md)
 
 ## 요약
 

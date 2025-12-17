@@ -1,6 +1,6 @@
 # 아키텍처 의사결정 기록 (ADR)
 
-> 🇺🇸 [English Version](../../docs/adr/README.md)
+> 🇺🇸 [English Version](../../adr/README.md)
 
 Specvital 프로젝트의 아키텍처 의사결정 문서화
 
@@ -63,7 +63,7 @@ XX-brief-decision-title.md
 
 1. **생성**: [template.md](./template.md) 복사 → `XX-title.md`
 2. **작성**: 확정된 의사결정 내용으로 모든 섹션 작성
-3. **현지화**: `docs/adr/`에 영어 버전 생성
+3. **현지화**: `adr/`에 영어 버전 생성
 4. **리뷰**: 팀 리뷰를 위해 PR 제출
 5. **병합**: 승인 후 목록에 추가
 

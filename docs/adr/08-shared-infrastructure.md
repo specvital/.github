@@ -1,6 +1,6 @@
 # ADR-08: Shared Infrastructure Strategy
 
-> [한국어 버전](../../docs.kr/adr/08-shared-infrastructure.md)
+> [한국어 버전](../kr/adr/08-shared-infrastructure.md)
 
 | Date       | Author       | Repos |
 | ---------- | ------------ | ----- |

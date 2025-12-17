@@ -1,6 +1,6 @@
 # System Architecture
 
-> 🇰🇷 [한국어 버전](../../docs.kr/prd/01-architecture.md)
+> 🇰🇷 [한국어 버전](../kr/prd/01-architecture.md)
 
 ## Service Composition
 

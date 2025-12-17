@@ -1,6 +1,6 @@
 # ADR-05: Queue-Based Asynchronous Processing
 
-> 🇰🇷 [한국어 버전](../../docs.kr/adr/05-queue-based-async-processing.md)
+> 🇰🇷 [한국어 버전](../kr/adr/05-queue-based-async-processing.md)
 
 | Date       | Author       | Repos          |
 | ---------- | ------------ | -------------- |

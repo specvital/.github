@@ -1,6 +1,6 @@
 # ADR-04: API와 Worker 서비스 분리
 
-> [English Version](../../docs/adr/04-api-worker-service-separation.md)
+> [English Version](../../adr/04-api-worker-service-separation.md)
 
 | Date       | Author       | Repos          |
 | ---------- | ------------ | -------------- |

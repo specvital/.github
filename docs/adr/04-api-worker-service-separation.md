@@ -1,6 +1,6 @@
 # ADR-04: API and Worker Service Separation
 
-> [한국어 버전](../../docs.kr/adr/04-api-worker-service-separation.md)
+> [한국어 버전](../kr/adr/04-api-worker-service-separation.md)
 
 | Date       | Author       | Repos          |
 | ---------- | ------------ | -------------- |

@@ -1,6 +1,6 @@
 # ADR-07: PaaS-First Infrastructure Strategy
 
-> [한국어 버전](../../docs.kr/adr/07-paas-first-infrastructure.md)
+> [한국어 버전](../kr/adr/07-paas-first-infrastructure.md)
 
 | Date       | Author       | Repos |
 | ---------- | ------------ | ----- |

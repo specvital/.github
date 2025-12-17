@@ -1,6 +1,6 @@
 # Core Engine (Test Parser)
 
-> 🇰🇷 [한국어 버전](../../docs.kr/prd/02-core-engine.md)
+> 🇰🇷 [한국어 버전](../kr/prd/02-core-engine.md)
 
 > Tree-sitter based multi-language test parser library
 

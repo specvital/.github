@@ -1,6 +1,6 @@
 # 데이터베이스 설계
 
-> 🇺🇸 [English Version](../../docs/prd/05-database-design.md)
+> 🇺🇸 [English Version](../../prd/05-database-design.md)
 
 ## ERD 개요
 

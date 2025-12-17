@@ -1,6 +1,6 @@
 # ADR-06: Polyrepo Repository Strategy
 
-> [한국어 버전](../../docs.kr/adr/06-repository-strategy.md)
+> [한국어 버전](../kr/adr/06-repository-strategy.md)
 
 | Date       | Author       | Repos |
 | ---------- | ------------ | ----- |

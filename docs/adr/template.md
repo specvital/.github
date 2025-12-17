@@ -1,6 +1,6 @@
 # ADR-XX: [Decision Title]
 
-> 🇰🇷 [한국어 버전](../../docs.kr/adr/XX-decision-title.md)
+> 🇰🇷 [한국어 버전](../kr/adr/XX-decision-title.md)
 
 | Date       | Author    | Repos                       |
 | ---------- | --------- | --------------------------- |

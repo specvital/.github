@@ -1,6 +1,6 @@
 # 시스템 아키텍처
 
-> 🇺🇸 [English Version](../../docs/prd/01-architecture.md)
+> 🇺🇸 [English Version](../../prd/01-architecture.md)
 
 ## 서비스 구성
 

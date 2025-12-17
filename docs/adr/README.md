@@ -1,6 +1,6 @@
 # Architecture Decision Records (ADR)
 
-> 🇰🇷 [한국어 버전](../../docs.kr/adr/README.md)
+> 🇰🇷 [한국어 버전](../kr/adr/README.md)
 
 Documentation of architectural decisions made in the Specvital project.
 
@@ -63,7 +63,7 @@ XX-brief-decision-title.md
 
 1. **Create**: Copy [template.md](./template.md) → `XX-title.md`
 2. **Write**: Fill in all sections with finalized decision
-3. **Localize**: Create Korean version in `docs.kr/adr/`
+3. **Localize**: Create Korean version in `kr/adr/`
 4. **Review**: Submit PR for team review
 5. **Merge**: Add to index after approval
 

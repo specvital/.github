@@ -1,6 +1,6 @@
 # Specvital 제품 개요
 
-> 🇺🇸 [English Version](../../docs/prd/00-overview.md)
+> 🇺🇸 [English Version](../../prd/00-overview.md)
 
 > 소스코드 정적 분석 기반 테스트 인벤토리 자동 생성 플랫폼
 

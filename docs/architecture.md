@@ -1,6 +1,6 @@
 # SpecVital Architecture
 
-> 🇰🇷 [한국어 버전](../docs.kr/architecture.md)
+> 🇰🇷 [한국어 버전](./kr/architecture.md)
 
 ## Overview
 

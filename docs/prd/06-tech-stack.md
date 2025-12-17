@@ -1,6 +1,6 @@
 # Technology Stack
 
-> 🇰🇷 [한국어 버전](../../docs.kr/prd/06-tech-stack.md)
+> 🇰🇷 [한국어 버전](../kr/prd/06-tech-stack.md)
 
 ## Summary
 

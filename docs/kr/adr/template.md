@@ -1,6 +1,6 @@
 # ADR-XX: [의사결정 제목]
 
-> 🇺🇸 [English Version](../../docs/adr/XX-decision-title.md)
+> 🇺🇸 [English Version](../../adr/XX-decision-title.md)
 
 | 날짜       | 작성자    | 리포지토리                  |
 | ---------- | --------- | --------------------------- |

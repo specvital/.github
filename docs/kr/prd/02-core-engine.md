@@ -1,6 +1,6 @@
 # Core Engine (테스트 파서)
 
-> 🇺🇸 [English Version](../../docs/prd/02-core-engine.md)
+> 🇺🇸 [English Version](../../prd/02-core-engine.md)
 
 > Tree-sitter 기반 다중 언어 테스트 파서 라이브러리
 

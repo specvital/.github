@@ -1,6 +1,6 @@
 # SpecVital Architecture
 
-> 🇺🇸 [English Version](../docs/architecture.md)
+> 🇺🇸 [English Version](../architecture.md)
 
 ## Overview
 

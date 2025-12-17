@@ -1,6 +1,6 @@
 # ADR-01: Static Analysis-Based Instant Analysis
 
-> 🇰🇷 [한국어 버전](../../docs.kr/adr/01-static-analysis-approach.md)
+> 🇰🇷 [한국어 버전](../kr/adr/01-static-analysis-approach.md)
 
 | Date       | Author       | Repos |
 | ---------- | ------------ | ----- |

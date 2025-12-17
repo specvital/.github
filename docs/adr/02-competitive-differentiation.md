@@ -1,6 +1,6 @@
 # ADR-02: Competitive Differentiation Strategy
 
-> [한국어 버전](../../docs.kr/adr/02-competitive-differentiation.md)
+> [한국어 버전](../kr/adr/02-competitive-differentiation.md)
 
 | Date       | Author       | Repos |
 | ---------- | ------------ | ----- |

@@ -1,6 +1,6 @@
 # ADR-02: 경쟁 차별화 전략
 
-> [English Version](../../docs/adr/02-competitive-differentiation.md)
+> [English Version](../../adr/02-competitive-differentiation.md)
 
 | 날짜       | 작성자       | 리포지토리 |
 | ---------- | ------------ | ---------- |

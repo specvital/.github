@@ -1,6 +1,6 @@
 # ADR-03: 파서 엔진의 독립 라이브러리화
 
-> 🇺🇸 [English Version](../../docs/adr/03-parser-library-separation.md)
+> 🇺🇸 [English Version](../../adr/03-parser-library-separation.md)
 
 | 날짜       | 작성자       | 영향 리포지토리 |
 | ---------- | ------------ | --------------- |

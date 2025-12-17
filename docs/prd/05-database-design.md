@@ -1,6 +1,6 @@
 # Database Design
 
-> 🇰🇷 [한국어 버전](../../docs.kr/prd/05-database-design.md)
+> 🇰🇷 [한국어 버전](../kr/prd/05-database-design.md)
 
 ## ERD Overview
 

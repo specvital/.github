@@ -1,6 +1,6 @@
 # PRD (Product Requirements Document)
 
-> 🇰🇷 [한국어 버전](../../docs.kr/prd/README.md)
+> 🇰🇷 [한국어 버전](../kr/prd/README.md)
 
 Specvital product requirements documentation
 

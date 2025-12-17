@@ -1,6 +1,6 @@
 # Web Platform
 
-> 🇺🇸 [English Version](../../docs/prd/03-web-platform.md)
+> 🇺🇸 [English Version](../../prd/03-web-platform.md)
 
 > 웹 대시보드 및 REST API
 
