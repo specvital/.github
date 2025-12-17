@@ -21,9 +21,9 @@
 
 ## Error Handling
 
-| Type | Policy |
-|------|--------|
-| Transient errors | Auto retry |
+| Type             | Policy         |
+| ---------------- | -------------- |
+| Transient errors | Auto retry     |
 | Permanent errors | Mark as failed |
 
 ## Retry Policy

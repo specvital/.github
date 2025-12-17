@@ -27,10 +27,10 @@ Inventory
 
 ## Source Abstraction
 
-| Type | Purpose |
-|------|---------|
-| LocalSource | Local filesystem |
-| GitSource | GitHub URL → shallow clone |
+| Type        | Purpose                    |
+| ----------- | -------------------------- |
+| LocalSource | Local filesystem           |
+| GitSource   | GitHub URL → shallow clone |
 
 ## Performance Optimization
 

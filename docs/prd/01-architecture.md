@@ -21,12 +21,12 @@
 
 ## Service Roles
 
-| Service | Role |
-|---------|------|
-| **Frontend** | Web dashboard |
-| **Backend** | REST API, OAuth |
+| Service       | Role                  |
+| ------------- | --------------------- |
+| **Frontend**  | Web dashboard         |
+| **Backend**   | REST API, OAuth       |
 | **Collector** | Async analysis worker |
-| **Core** | Test parser library |
+| **Core**      | Test parser library   |
 
 ## Data Flow
 
@@ -41,11 +41,11 @@ User → Enter GitHub URL
 
 ## Communication Patterns
 
-| Path | Method |
-|------|--------|
-| Frontend ↔ Backend | REST/HTTP |
+| Path                | Method        |
+| ------------------- | ------------- |
+| Frontend ↔ Backend | REST/HTTP     |
 | Backend → Collector | Message queue |
-| Collector → Core | Library call |
+| Collector → Core    | Library call  |
 
 ## Scaling Strategy
 

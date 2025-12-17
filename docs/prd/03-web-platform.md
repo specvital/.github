@@ -6,10 +6,10 @@
 
 ## Components
 
-| Component | Role |
-|-----------|------|
-| Backend | REST API, OAuth |
-| Frontend | Dashboard SPA |
+| Component | Role            |
+| --------- | --------------- |
+| Backend   | REST API, OAuth |
+| Frontend  | Dashboard SPA   |
 
 ## Backend API Areas
 
@@ -19,11 +19,11 @@
 
 ## Frontend Main Screens
 
-| Screen | Function |
-|--------|----------|
-| Home | GitHub URL input |
-| Dashboard | Codebase list |
-| Detail | Test tree view |
+| Screen    | Function         |
+| --------- | ---------------- |
+| Home      | GitHub URL input |
+| Dashboard | Codebase list    |
+| Detail    | Test tree view   |
 
 ## Authentication Flow
 

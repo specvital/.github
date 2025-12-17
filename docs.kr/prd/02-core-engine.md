@@ -27,10 +27,10 @@ Inventory
 
 ## Source 추상화
 
-| 타입 | 용도 |
-|------|------|
-| LocalSource | 로컬 파일시스템 |
-| GitSource | GitHub URL → shallow clone |
+| 타입        | 용도                       |
+| ----------- | -------------------------- |
+| LocalSource | 로컬 파일시스템            |
+| GitSource   | GitHub URL → shallow clone |
 
 ## 성능 최적화
 

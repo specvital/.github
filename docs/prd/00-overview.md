@@ -20,27 +20,27 @@
 
 ## Competitive Position
 
-| Competitor | Approach | Specvital Differentiator |
-|------------|----------|--------------------------|
-| TestRail | Manual entry | Automatic extraction |
-| Qase | AI-assisted | Static analysis |
-| Testomat.io | JS-focused | Multi-language |
+| Competitor  | Approach     | Specvital Differentiator |
+| ----------- | ------------ | ------------------------ |
+| TestRail    | Manual entry | Automatic extraction     |
+| Qase        | AI-assisted  | Static analysis          |
+| Testomat.io | JS-focused   | Multi-language           |
 
 ## GTM Strategy
 
-| Phase | Target | Channel |
-|-------|--------|---------|
-| 1 | Open source/Developers | GitHub Marketplace |
-| 2 | Startups | Product Hunt |
-| 3 | Enterprise | Direct sales |
+| Phase | Target                 | Channel            |
+| ----- | ---------------------- | ------------------ |
+| 1     | Open source/Developers | GitHub Marketplace |
+| 2     | Startups               | Product Hunt       |
+| 3     | Enterprise             | Direct sales       |
 
 ## Pricing Model
 
-| Tier | Target |
-|------|--------|
-| Free | Public repos |
-| Starter | Small teams |
-| Team | Medium teams |
+| Tier       | Target              |
+| ---------- | ------------------- |
+| Free       | Public repos        |
+| Starter    | Small teams         |
+| Team       | Medium teams        |
 | Enterprise | Large organizations |
 
 ## Key KPIs

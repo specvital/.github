@@ -20,18 +20,18 @@ users (1) ──▶ (N) oauth_accounts
 
 ### Core Domain
 
-| 테이블 | 역할 |
-|--------|------|
-| codebases | GitHub 리포지토리 |
-| analyses | 분석 작업 |
-| test_suites | describe 블록 |
-| test_cases | it/test 블록 |
+| 테이블      | 역할              |
+| ----------- | ----------------- |
+| codebases   | GitHub 리포지토리 |
+| analyses    | 분석 작업         |
+| test_suites | describe 블록     |
+| test_cases  | it/test 블록      |
 
 ### Auth Domain
 
-| 테이블 | 역할 |
-|--------|------|
-| users | 사용자 |
+| 테이블         | 역할       |
+| -------------- | ---------- |
+| users          | 사용자     |
 | oauth_accounts | OAuth 토큰 |
 
 ## 주요 Enum

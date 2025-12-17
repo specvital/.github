@@ -20,28 +20,28 @@
 
 ## 경쟁 포지션
 
-| 경쟁사 | 접근법 | Specvital 차별점 |
-|--------|--------|-----------------|
-| TestRail | 수동 입력 | 자동 추출 |
-| Qase | AI 지원 | 정적 분석 |
-| Testomat.io | JS 특화 | 다중 언어 |
+| 경쟁사      | 접근법    | Specvital 차별점 |
+| ----------- | --------- | ---------------- |
+| TestRail    | 수동 입력 | 자동 추출        |
+| Qase        | AI 지원   | 정적 분석        |
+| Testomat.io | JS 특화   | 다중 언어        |
 
 ## GTM 전략
 
-| Phase | 타겟 | 채널 |
-|-------|------|------|
-| 1 | 오픈소스/개발자 | GitHub Marketplace |
-| 2 | 스타트업 | Product Hunt |
-| 3 | 엔터프라이즈 | 직접 영업 |
+| Phase | 타겟            | 채널               |
+| ----- | --------------- | ------------------ |
+| 1     | 오픈소스/개발자 | GitHub Marketplace |
+| 2     | 스타트업        | Product Hunt       |
+| 3     | 엔터프라이즈    | 직접 영업          |
 
 ## 가격 모델
 
-| Tier | 대상 |
-|------|------|
-| Free | Public 레포 |
-| Starter | 소규모 팀 |
-| Team | 중규모 팀 |
-| Enterprise | 대기업 |
+| Tier       | 대상        |
+| ---------- | ----------- |
+| Free       | Public 레포 |
+| Starter    | 소규모 팀   |
+| Team       | 중규모 팀   |
+| Enterprise | 대기업      |
 
 ## 핵심 KPI
 

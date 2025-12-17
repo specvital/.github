@@ -4,14 +4,14 @@
 
 ## 요약
 
-| 영역 | 선택 | 이유 |
-|------|------|------|
-| Parser | Go + Tree-sitter | 고성능, 다중 언어 |
-| Backend | Go | 성능, 배포 단순 |
-| Frontend | React (Next.js) | 생태계, SSR |
-| Queue | Redis 기반 | 간단, 재시도 |
-| DB | PostgreSQL | 범용성, 안정성 |
-| Deploy | PaaS | DX 우선 |
+| 영역     | 선택             | 이유              |
+| -------- | ---------------- | ----------------- |
+| Parser   | Go + Tree-sitter | 고성능, 다중 언어 |
+| Backend  | Go               | 성능, 배포 단순   |
+| Frontend | React (Next.js)  | 생태계, SSR       |
+| Queue    | Redis 기반       | 간단, 재시도      |
+| DB       | PostgreSQL       | 범용성, 안정성    |
+| Deploy   | PaaS             | DX 우선           |
 
 ## 기술 원칙
 

@@ -21,12 +21,12 @@
 
 ## 서비스별 역할
 
-| 서비스 | 역할 |
-|--------|------|
-| **Frontend** | 웹 대시보드 |
-| **Backend** | REST API, OAuth |
-| **Collector** | 비동기 분석 워커 |
-| **Core** | 테스트 파서 라이브러리 |
+| 서비스        | 역할                   |
+| ------------- | ---------------------- |
+| **Frontend**  | 웹 대시보드            |
+| **Backend**   | REST API, OAuth        |
+| **Collector** | 비동기 분석 워커       |
+| **Core**      | 테스트 파서 라이브러리 |
 
 ## 데이터 흐름
 
@@ -41,11 +41,11 @@
 
 ## 통신 패턴
 
-| 구간 | 방식 |
-|------|------|
-| Frontend ↔ Backend | REST/HTTP |
-| Backend → Collector | 메시지 큐 |
-| Collector → Core | 라이브러리 호출 |
+| 구간                | 방식            |
+| ------------------- | --------------- |
+| Frontend ↔ Backend | REST/HTTP       |
+| Backend → Collector | 메시지 큐       |
+| Collector → Core    | 라이브러리 호출 |
 
 ## 확장 전략
 

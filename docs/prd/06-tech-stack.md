@@ -4,14 +4,14 @@
 
 ## Summary
 
-| Area | Choice | Reason |
-|------|--------|--------|
-| Parser | Go + Tree-sitter | High performance, multi-language |
-| Backend | Go | Performance, simple deployment |
-| Frontend | React (Next.js) | Ecosystem, SSR |
-| Queue | Redis-based | Simple, retry support |
-| DB | PostgreSQL | Versatility, stability |
-| Deploy | PaaS | DX priority |
+| Area     | Choice           | Reason                           |
+| -------- | ---------------- | -------------------------------- |
+| Parser   | Go + Tree-sitter | High performance, multi-language |
+| Backend  | Go               | Performance, simple deployment   |
+| Frontend | React (Next.js)  | Ecosystem, SSR                   |
+| Queue    | Redis-based      | Simple, retry support            |
+| DB       | PostgreSQL       | Versatility, stability           |
+| Deploy   | PaaS             | DX priority                      |
 
 ## Technical Principles
 

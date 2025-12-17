@@ -44,12 +44,12 @@ SpecVital은 GitHub 리포지토리의 테스트 파일을 분석하고 시각�
 
 ### 역할 분리
 
-| Component | 핵심 책임 |
-|-----------|----------|
-| **core** | 테스트 파일 파싱 (핵심 엔진) |
-| **web** | API 서버 + 대시보드, 큐 생성, 결과 표시 |
-| **collector** | 큐 소비, core로 분석, 결과 저장 |
-| **infra** | DB/Redis 제공, 스키마 관리 |
+| Component     | 핵심 책임                               |
+| ------------- | --------------------------------------- |
+| **core**      | 테스트 파일 파싱 (핵심 엔진)            |
+| **web**       | API 서버 + 대시보드, 큐 생성, 결과 표시 |
+| **collector** | 큐 소비, core로 분석, 결과 저장         |
+| **infra**     | DB/Redis 제공, 스키마 관리              |
 
 ---
 
@@ -59,10 +59,10 @@ SpecVital은 GitHub 리포지토리의 테스트 파일을 분석하고 시각�
 
 **역할**: Tree-sitter 기반 테스트 파서 엔진
 
-| 항목 | 내용 |
-|------|------|
-| 언어 | Go |
-| 유형 | Library |
+| 항목   | 내용      |
+| ------ | --------- |
+| 언어   | Go        |
+| 유형   | Library   |
 | 소비자 | collector |
 
 ---
@@ -71,10 +71,10 @@ SpecVital은 GitHub 리포지토리의 테스트 파일을 분석하고 시각�
 
 **역할**: API 서버 + 대시보드
 
-| 항목 | 내용 |
-|------|------|
-| 스택 | Go + Chi (Backend), Next.js (Frontend) |
-| 의존성 | infra (PostgreSQL, Redis) |
+| 항목   | 내용                                   |
+| ------ | -------------------------------------- |
+| 스택   | Go + Chi (Backend), Next.js (Frontend) |
+| 의존성 | infra (PostgreSQL, Redis)              |
 
 ---
 
@@ -82,9 +82,9 @@ SpecVital은 GitHub 리포지토리의 테스트 파일을 분석하고 시각�
 
 **역할**: 분석 워커
 
-| 항목 | 내용 |
-|------|------|
-| 언어 | Go |
+| 항목   | 내용                            |
+| ------ | ------------------------------- |
+| 언어   | Go                              |
 | 의존성 | core, infra (PostgreSQL, Redis) |
 
 ---
@@ -93,11 +93,11 @@ SpecVital은 GitHub 리포지토리의 테스트 파일을 분석하고 시각�
 
 **역할**: 중앙 인프라 및 스키마 관리
 
-| 항목 | 플랫폼 |
-|------|--------|
-| Database | PostgreSQL (Neon) |
-| Queue/Cache | Redis (Upstash) |
-| Schema | Atlas |
+| 항목        | 플랫폼            |
+| ----------- | ----------------- |
+| Database    | PostgreSQL (Neon) |
+| Queue/Cache | Redis (Upstash)   |
+| Schema      | Atlas             |
 
 ---
 
@@ -127,6 +127,7 @@ SpecVital은 GitHub 리포지토리의 테스트 파일을 분석하고 시각�
 ```
 
 **흐름**:
+
 1. 사용자가 GitHub URL로 분석 요청
 2. web이 Redis에 작업 등록
 3. collector worker가 작업 수신
@@ -163,11 +164,11 @@ SpecVital은 GitHub 리포지토리의 테스트 파일을 분석하고 시각�
 
 ### 의존 관계
 
-| Consumer | Provider | 관계 유형 |
-|----------|----------|----------|
-| collector | core | Go Module Import |
+| Consumer       | Provider   | 관계 유형        |
+| -------------- | ---------- | ---------------- |
+| collector      | core       | Go Module Import |
 | web, collector | PostgreSQL | 데이터 저장/조회 |
-| web, collector | Redis | 작업 큐 |
+| web, collector | Redis      | 작업 큐          |
 
 ---
 
@@ -175,19 +176,19 @@ SpecVital은 GitHub 리포지토리의 테스트 파일을 분석하고 시각�
 
 ### 배포 플랫폼
 
-| 서비스 | 플랫폼 |
-|--------|--------|
-| PostgreSQL | Neon |
-| Redis | Upstash |
-| web-backend | Railway |
-| web-frontend | Vercel |
-| collector-worker | Railway |
+| 서비스              | 플랫폼  |
+| ------------------- | ------- |
+| PostgreSQL          | Neon    |
+| Redis               | Upstash |
+| web-backend         | Railway |
+| web-frontend        | Vercel  |
+| collector-worker    | Railway |
 | collector-scheduler | Railway |
 
 ### 확장성
 
-| Service | 확장성 | 비고 |
-|---------|--------|------|
-| web | 수평 확장 | Stateless |
-| collector (Worker) | 수평 확장 | Stateless, 병렬 처리 |
-| collector (Scheduler) | 단일 인스턴스 | Cron 작업 |
+| Service               | 확장성        | 비고                 |
+| --------------------- | ------------- | -------------------- |
+| web                   | 수평 확장     | Stateless            |
+| collector (Worker)    | 수평 확장     | Stateless, 병렬 처리 |
+| collector (Scheduler) | 단일 인스턴스 | Cron 작업            |

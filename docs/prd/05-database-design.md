@@ -20,18 +20,18 @@ users (1) ──▶ (N) oauth_accounts
 
 ### Core Domain
 
-| Table | Role |
-|-------|------|
-| codebases | GitHub repositories |
-| analyses | Analysis jobs |
-| test_suites | describe blocks |
-| test_cases | it/test blocks |
+| Table       | Role                |
+| ----------- | ------------------- |
+| codebases   | GitHub repositories |
+| analyses    | Analysis jobs       |
+| test_suites | describe blocks     |
+| test_cases  | it/test blocks      |
 
 ### Auth Domain
 
-| Table | Role |
-|-------|------|
-| users | Users |
+| Table          | Role         |
+| -------------- | ------------ |
+| users          | Users        |
 | oauth_accounts | OAuth tokens |
 
 ## Key Enums

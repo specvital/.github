@@ -44,12 +44,12 @@ SpecVital is a platform for analyzing and visualizing test files in GitHub repos
 
 ### Separation of Concerns
 
-| Component | Responsibility |
-|-----------|----------------|
-| **core** | Test file parsing (core engine) |
-| **web** | API server + dashboard, queue producer, result display |
-| **collector** | Queue consumer, analysis via core, result persistence |
-| **infra** | DB/Redis provision, schema management |
+| Component     | Responsibility                                         |
+| ------------- | ------------------------------------------------------ |
+| **core**      | Test file parsing (core engine)                        |
+| **web**       | API server + dashboard, queue producer, result display |
+| **collector** | Queue consumer, analysis via core, result persistence  |
+| **infra**     | DB/Redis provision, schema management                  |
 
 ---
 
@@ -59,11 +59,11 @@ SpecVital is a platform for analyzing and visualizing test files in GitHub repos
 
 **Role**: Tree-sitter based test parser engine
 
-| Item | Description |
-|------|-------------|
-| Language | Go |
-| Type | Library |
-| Consumer | collector |
+| Item     | Description |
+| -------- | ----------- |
+| Language | Go          |
+| Type     | Library     |
+| Consumer | collector   |
 
 ---
 
@@ -71,10 +71,10 @@ SpecVital is a platform for analyzing and visualizing test files in GitHub repos
 
 **Role**: API server + dashboard
 
-| Item | Description |
-|------|-------------|
-| Stack | Go + Chi (Backend), Next.js (Frontend) |
-| Dependencies | infra (PostgreSQL, Redis) |
+| Item         | Description                            |
+| ------------ | -------------------------------------- |
+| Stack        | Go + Chi (Backend), Next.js (Frontend) |
+| Dependencies | infra (PostgreSQL, Redis)              |
 
 ---
 
@@ -82,9 +82,9 @@ SpecVital is a platform for analyzing and visualizing test files in GitHub repos
 
 **Role**: Analysis worker
 
-| Item | Description |
-|------|-------------|
-| Language | Go |
+| Item         | Description                     |
+| ------------ | ------------------------------- |
+| Language     | Go                              |
 | Dependencies | core, infra (PostgreSQL, Redis) |
 
 ---
@@ -93,11 +93,11 @@ SpecVital is a platform for analyzing and visualizing test files in GitHub repos
 
 **Role**: Central infrastructure and schema management
 
-| Item | Platform |
-|------|----------|
-| Database | PostgreSQL (Neon) |
-| Queue/Cache | Redis (Upstash) |
-| Schema | Atlas |
+| Item        | Platform          |
+| ----------- | ----------------- |
+| Database    | PostgreSQL (Neon) |
+| Queue/Cache | Redis (Upstash)   |
+| Schema      | Atlas             |
 
 ---
 
@@ -127,6 +127,7 @@ SpecVital is a platform for analyzing and visualizing test files in GitHub repos
 ```
 
 **Flow**:
+
 1. User requests analysis with GitHub URL
 2. web enqueues job to Redis
 3. collector worker consumes job
@@ -163,11 +164,11 @@ SpecVital is a platform for analyzing and visualizing test files in GitHub repos
 
 ### Dependencies
 
-| Consumer | Provider | Relationship |
-|----------|----------|--------------|
-| collector | core | Go Module Import |
+| Consumer       | Provider   | Relationship           |
+| -------------- | ---------- | ---------------------- |
+| collector      | core       | Go Module Import       |
 | web, collector | PostgreSQL | Data storage/retrieval |
-| web, collector | Redis | Job queue |
+| web, collector | Redis      | Job queue              |
 
 ---
 
@@ -175,19 +176,19 @@ SpecVital is a platform for analyzing and visualizing test files in GitHub repos
 
 ### Platforms
 
-| Service | Platform |
-|---------|----------|
-| PostgreSQL | Neon |
-| Redis | Upstash |
-| web-backend | Railway |
-| web-frontend | Vercel |
-| collector-worker | Railway |
-| collector-scheduler | Railway |
+| Service             | Platform |
+| ------------------- | -------- |
+| PostgreSQL          | Neon     |
+| Redis               | Upstash  |
+| web-backend         | Railway  |
+| web-frontend        | Vercel   |
+| collector-worker    | Railway  |
+| collector-scheduler | Railway  |
 
 ### Scalability
 
-| Service | Scalability | Note |
-|---------|-------------|------|
-| web | Horizontal | Stateless |
-| collector (Worker) | Horizontal | Stateless, parallel processing |
-| collector (Scheduler) | Single instance | Cron jobs |
+| Service               | Scalability     | Note                           |
+| --------------------- | --------------- | ------------------------------ |
+| web                   | Horizontal      | Stateless                      |
+| collector (Worker)    | Horizontal      | Stateless, parallel processing |
+| collector (Scheduler) | Single instance | Cron jobs                      |
