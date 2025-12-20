@@ -1,4 +1,5 @@
 .env
 .pnpm-store
 node_modules
+.claude/settings.local.json
 .claude-sessions/
