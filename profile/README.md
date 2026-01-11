@@ -18,12 +18,12 @@
 
 ## Ecosystem
 
-| Repository                                              | Description                                             | Stack             |
-| ------------------------------------------------------- | ------------------------------------------------------- | ----------------- |
-| **[core](https://github.com/specvital/core)**           | Tree-sitter based test parser engine (Go library + CLI) | Go, Tree-sitter   |
-| **[web](https://github.com/specvital/web)**             | Web dashboard and REST API                              | Go (Chi), Next.js |
-| **[collector](https://github.com/specvital/collector)** | Background analysis worker service                      | Go, asynq         |
-| **[infra](https://github.com/specvital/infra)**         | Local dev infrastructure and DB schema management       | Docker, Atlas     |
+| Repository                                        | Description                                             | Stack             |
+| ------------------------------------------------- | ------------------------------------------------------- | ----------------- |
+| **[core](https://github.com/specvital/core)**     | Tree-sitter based test parser engine (Go library + CLI) | Go, Tree-sitter   |
+| **[web](https://github.com/specvital/web)**       | Web dashboard and REST API                              | Go (Chi), Next.js |
+| **[worker](https://github.com/specvital/worker)** | Background analysis worker service                      | Go, asynq         |
+| **[infra](https://github.com/specvital/infra)**   | Local dev infrastructure and DB schema management       | Docker, Atlas     |
 
 ## Supported Frameworks (20+)
 
