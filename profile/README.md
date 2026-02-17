@@ -3,11 +3,11 @@
 </p>
 
 <p align="center">
-  <strong>Auto-generate test inventory from source code, without CI execution</strong>
+  <strong>📦 This organization has been archived</strong>
 </p>
 
 <p align="center">
-  Static analysis based · Multi-language support · Start with just a GitHub URL
+  All repositories have been consolidated into a single monorepo.
 </p>
 
 <p align="center">
@@ -16,26 +16,10 @@
 
 ---
 
-## Ecosystem
+## Moved to Monorepo
 
-| Repository                                        | Description                                             | Stack             |
-| ------------------------------------------------- | ------------------------------------------------------- | ----------------- |
-| **[core](https://github.com/specvital/core)**     | Tree-sitter based test parser engine (Go library + CLI) | Go, Tree-sitter   |
-| **[web](https://github.com/specvital/web)**       | Web dashboard and REST API                              | Go (Chi), Next.js |
-| **[worker](https://github.com/specvital/worker)** | Background analysis worker service                      | Go, asynq         |
-| **[infra](https://github.com/specvital/infra)**   | Local dev infrastructure and DB schema management       | Docker, Atlas     |
+All projects previously hosted under this organization — **core**, **web**, **worker**, **infra** — have been migrated to:
 
-## Supported Frameworks (20+)
+### 👉 [kubrickcode/specvital](https://github.com/kubrickcode/specvital)
 
-| Language                  | Frameworks                                   |
-| ------------------------- | -------------------------------------------- |
-| **JavaScript/TypeScript** | Jest · Vitest · Playwright · Cypress · Mocha |
-| **Go**                    | Go testing                                   |
-| **Python**                | pytest · unittest                            |
-| **Java/Kotlin**           | JUnit 5 · TestNG · Kotest                    |
-| **C#/.NET**               | xUnit · NUnit · MSTest                       |
-| **Ruby**                  | RSpec · Minitest                             |
-| **Rust**                  | Cargo test                                   |
-| **C++**                   | Google Test                                  |
-| **PHP**                   | PHPUnit                                      |
-| **Swift**                 | XCTest                                       |
+Please visit the monorepo for the latest source code, documentation, and issues.

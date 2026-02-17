@@ -1,3 +1,3 @@
 # .github
 
-Shared configuration and organization profile for Specvital.
+> **This organization has been archived.** All repositories have been consolidated into the [kubrickcode/specvital](https://github.com/kubrickcode/specvital) monorepo.
